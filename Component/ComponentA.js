@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style.css"
+import Image from 'next/image';
 function ComponentA() {
     return (
         
@@ -18,7 +19,7 @@ function ComponentA() {
                         </div>
                     </div>
                 </div>
-                <img alt="First Home" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/first-home.webp" />
+                <Image  alt="First Home" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/first-home.webp" />
             </a>
             <a className="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&>img]:h-[100%] md:[&>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&>img]:max-w-none" href="/b/one-day-mortgage/">
                 <div className="flex flex-col gap-6">
@@ -37,7 +38,7 @@ function ComponentA() {
                         </div>
                     </div>
                 </div>
-                <img alt="One day mortgage" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/one-day-mortgage.webp" />
+                <Image  alt="One day mortgage" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/one-day-mortgage.webp" />
             </a>
             <a className="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&>img]:h-[100%] md:[&>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&>img]:max-w-none" href="/b/heloc/">
                 <div className="flex flex-col gap-6">
@@ -56,7 +57,7 @@ function ComponentA() {
                         </div>
                     </div>
                 </div>
-                <img alt="Better HELOC" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/better-heloc.webp" />
+                <Image  alt="Better HELOC" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/better-heloc.webp" />
             </a>
             <a className="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&>img]:h-[100%] md:[&>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&>img]:max-w-none" href="https://www.bettercover.com">
                 <div className="flex flex-col gap-6">
@@ -72,7 +73,7 @@ function ComponentA() {
                         </div>
                     </div>
                 </div>
-                <img alt="Insurance" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/insurance.webp" />
+                <Image  alt="Insurance" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/insurance.webp" />
             </a>
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style.css"
+import Image from 'next/image';
 function Footer() {
   return (
     <div>

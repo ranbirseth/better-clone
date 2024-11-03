@@ -159,7 +159,7 @@ const Home = () => {
 
               <div style={{ textAlign: 'center' }}>
                 <div>
-                  <img
+                  <Image 
                     src={images[activeIndex]}
                     alt={`Slide ${activeIndex + 1}`}
                     style={{ width: '341px', height: '606px' }}
@@ -187,7 +187,7 @@ const Home = () => {
           <div className="m-auto flex max-w-screen-2xl flex-col items-center md:items-start gap-8 px-6 py-20 md:px-10 lg:gap-[60px]">
             <div className="justify-left flex w-full max-w-lg flex-wrap gap-12 lg:gap-6 lg:max-w-none lg:items-end lg:justify-between">
               <h2 className="font-bold text-textPrimary leading-heading m-0 p-0 text-xl md:text-2xl md:tracking-tight w-full max-w-lg !text-3xl tracking-tight">
-                Got questions?<br />We've got answers
+                Got questions?<br />We&apos;ve got answers
               </h2>
               <div className="flex gap-3 overflow-x-scroll lg:gap-6 [&::-webkit-scrollbar]:w-0 [&::-webkit-scrollbar]:h-0">
                 <button onClick={() => handleButtonClick('A')} className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto shadow-accentBorderSecondary border-accentBorderSecondary shadow-[0_0_0_4px_inset] text-interactivePrimary">

@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { Phone } from 'lucide-react';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState({

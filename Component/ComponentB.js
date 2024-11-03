@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style.css"
+import Image from 'next/image';
 function ComponentB() {
   return (
 
@@ -19,7 +20,7 @@ function ComponentB() {
               </div>
             </div>
           </div>
-          <img alt="Mortgage calculator" loading="lazy" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/mortgage-calculator.webp" />
+          <Image  alt="Mortgage calculator" loading="lazy" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/mortgage-calculator.webp" />
         </div>
       </a>
 
@@ -41,7 +42,7 @@ function ComponentB() {
               </div>
             </div>
           </div>
-          <img alt="Affordability calculator" loading="lazy" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/affordability-calculator.webp" />
+          <Image  alt="Affordability calculator" loading="lazy" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/affordability-calculator.webp" />
         </div>
       </a>
 
@@ -63,7 +64,7 @@ function ComponentB() {
               </div>
             </div>
           </div>
-          <img alt="HELOC calculator" loading="lazy" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/heloc-calculator.webp" />
+          <Image  alt="HELOC calculator" loading="lazy" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/heloc-calculator.webp" />
         </div>
       </a>
 
@@ -82,7 +83,7 @@ function ComponentB() {
               </div>
             </div>
           </div>
-          <img alt="Fixed-rate calculator" loading="lazy" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/fixed-rate-calculator.webp" />
+          <Image  alt="Fixed-rate calculator" loading="lazy" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/fixed-rate-calculator.webp" />
         </div>
       </a>
     </div>

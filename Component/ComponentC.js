@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style.css"
+import Image from 'next/image';
 function ComponentC() {
   return (
     <div className="flex flex-row flex-wrap justify-center gap-8 lg:gap-6">
@@ -24,7 +25,7 @@ function ComponentC() {
               </div>
             </div>
           </div>
-          <img alt="Good DTI" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/good-dti.webp" />
+          <Image  alt="Good DTI" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/good-dti.webp" />
         </a>
       </a>
 
@@ -50,7 +51,7 @@ function ComponentC() {
               </div>
             </div>
           </div>
-          <img alt="Buy house without realtor" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/buy-house-without-realtor.webp" />
+          <Image  alt="Buy house without realtor" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/buy-house-without-realtor.webp" />
         </a>
       </a>
 
@@ -76,7 +77,7 @@ function ComponentC() {
               </div>
             </div>
           </div>
-          <img alt="Timeline" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/loan-timeline.webp" />
+          <Image  alt="Timeline" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/loan-timeline.webp" />
         </a>
       </a>
 
@@ -101,7 +102,7 @@ function ComponentC() {
               </div>
             </div>
           </div>
-          <img alt="Conventional loan" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/conventional-loan.webp" />
+          <Image  alt="Conventional loan" loading="lazy" width="200" height="200" className="w-full rounded-base object-cover h-[160px] md:h-[130px]" src="https://media.better.com/better-com/homepage/learning-center/conventional-loan.webp" />
         </a>
       </a>
     </div>
