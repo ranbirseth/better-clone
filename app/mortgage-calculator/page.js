@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import '../../component/style.css';
+import '../../Component/style.css';
 import Navbar from '@/Component/Nav';
 
 const MortgageCalculator = () => {

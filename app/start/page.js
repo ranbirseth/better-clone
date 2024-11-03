@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import '../../component/style.css'
+import '../../Component/style.css'
 
 import { Phone, PhoneCallIcon } from 'lucide-react';
 const Start = () => {
